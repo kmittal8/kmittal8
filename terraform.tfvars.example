@@ -1,0 +1,14 @@
+# OCI Provider Configuration
+# Copy this file to terraform.tfvars and fill in your actual values
+# IMPORTANT: Never commit terraform.tfvars to version control!
+
+tenancy_ocid     = "ocid1.tenancy.oc1..aaaaaaaa..."
+user_ocid        = "ocid1.user.oc1..aaaaaaaa..."
+fingerprint      = "aa:bb:cc:dd:ee:ff:00:11:22:33:44:55:66:77:88:99"
+private_key_path = "~/.oci/oci_api_key.pem"
+region           = "us-ashburn-1"
+compartment_ocid = "ocid1.compartment.oc1..aaaaaaaa..."
+
+# Application Variables
+vcn_cidr_block = "10.0.0.0/16"
+environment    = "dev"
